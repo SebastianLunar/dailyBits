@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "abc",
+      "email": "abc@example.com",
+      "password": "pass",
+      "gameInfo": {
+        "gameCategoriesProgress": [
+          {
+            "category": "HTML",
+            "progress": 0
+          },
+          {
+            "category": "CSS",
+            "progress": 0
+          },
+          {
+            "category": "JS",
+            "progress": 0
+          },
+          {
+            "category": "FIG",
+            "progress": 0
+          },
+          {
+            "category": "UX",
+            "progress": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "4ff55341-5cdd-4ca6-8235-320ae4d38f0e",
+      "name": "Sebastian Luna",
+      "email": "sebastian.brazil@yopmail.com",
+      "password": "admin123"
+    },
+    {
+      "id": "d2c9d7e2-3543-4047-be77-8976720c16fa",
+      "name": "Sebastian Luna2",
+      "email": "sebastian@gmail.com",
+      "password": "admin123"
+    }
+  ]
+}

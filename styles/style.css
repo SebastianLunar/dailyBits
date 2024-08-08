@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+form {
+  width: -webkit-fill-available
+}
+
+#splash {
+  background-color: #7F5AF0;
+  height: 100vh;
+  place-content: center;
+  display: flex;
+  z-index: 10;
+}
+
+#splash img {
+  height: 143px;
+  width: 177px;
+  position: absolute;
+  top: 39%;
+}
+
+div#login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+#login-container #googleLogin {
+  padding: 14px;
+  display: flex;
+  gap: 0.5rem;
+  background-color: #EF4565;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  width: -webkit-fill-available;
+}
+
+#login-container button {
+  margin-top: 1rem;
+  color: #fff;
+  padding: 14px;
+  display: flex;
+  gap: 0.5rem;
+  background-color: #2CB67D;
+  border-radius: 0.5rem;
+  border: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  width: -webkit-fill-available;
+}
+
+#login-container .loginInput {
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+  gap: 6px;
+}
+
+#login-container .loginInput input {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+a{
+  color: #2CB67D
+}
+

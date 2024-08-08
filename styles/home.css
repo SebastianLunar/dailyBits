@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+body h3 {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+ align-items: center;
+}
+
+.doubleCard {
+  display: flex;
+  gap: 1rem;
+}
+
+.container .progress img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  z-index: 1;
+  font-weight: 500;
+}
+
+.container .progress h4 {
+  position: absolute;
+  top: 112%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-weight: 500;
+}
+
+.container .progress {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: #fff;
+  background: #FFF linear-gradient(to left, transparent 50%, #2CB67D 0);
+}
+
+.container .progress::before {
+  content: '';
+  display: block;
+  height: 100%;
+  margin-left: 50%;
+  transform-origin: left;
+  border-radius: 0 100% 100% 0/50%;
+  background: #2CB67D;
+  transform: rotate(calc(var(--i) * 0.01turn));
+}
+
+.container .progress::after {
+  content: '';
+  position: absolute;
+  inset: 10px;
+  border-radius: 50%;
+  background: #222;
+}
+
+.container .progress.less::before {
+  background: #FFF;
+  transform: rotate(calc((var(--i) - 50) * 0.01turn));
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #232E35;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: -webkit-fill-available;
+}
+
+nav ul {
+  display: flex;
+  gap: 4rem;
+}
+
+nav ul li{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+
+nav ul li a{
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+
+nav ul li img{
+  width: 24px;
+}
+
