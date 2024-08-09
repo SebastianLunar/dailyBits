@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Bits</title>
+    <link rel="stylesheet" type="text/css" href="../styles/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>Perfil</h1>
+    <div id="login-container" class="container">
+      <br />
+      <form id="signUpForm">
+        <div id="logo-container">
+          <img
+            width="50px"
+            id="avatar"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS-rzZuhiLEqr-GF6WnZGpUkS2zSErzEUYlg&s"
+            alt="secondLogo"
+          />
+        </div>
+        <div class="loginInput">
+          <input
+            type="text"
+            id="name"
+            placeholder="Ingrese su nombre completo"
+            disabled
+          />
+        </div>
+        <div class="loginInput">
+          <input
+            type="email"
+            id="email"
+            placeholder="Ingrese su correo electrónico"
+            disabled
+          />
+        </div>
+        <div class="loginInput">
+          <input
+            type="password"
+            id="password"
+            placeholder="Ingrese su contraseña"
+            disabled
+          />
+        </div>
+        <button type="button" id="btnEditar">Editar</button>
+        <button type="button" id="btnGuardar" disabled>Guardar</button>
+        <button type="button" id="btnCerrar">Cerrar Sesión</button>
+      </form>
+    </div>
+
+    <nav id="navContainer"></nav>
+
+    <script src="../scripts/profile.js" type="module"></script>
+  </body>
+</html>

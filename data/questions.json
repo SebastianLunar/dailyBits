@@ -2,16 +2,19 @@
   "questions": [
     {
       "question": "What is the capital of France?",
-      "options": [
-        "Paris", "Berlin", "Madrid", "London"
-      ],
+      "options": ["Paris", "Berlin", "Madrid", "London"],
       "answer": "Paris"
     },
     {
       "question": "Who was the first person to climb Mount Everest?",
-      "options": ["Albert Einstein", "Leonardo da Vinci", "Paul Gauguin", "Stephen Hawking"],
+      "options": [
+        "Albert Einstein",
+        "Leonardo da Vinci",
+        "Paul Gauguin",
+        "Stephen Hawking"
+      ],
       "answer": "Stephen Hawking"
     }
-    // Add more questions here...
   ]
+ 
 }

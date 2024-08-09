@@ -41,6 +41,141 @@
       "name": "Sebastian Luna2",
       "email": "sebastian@gmail.com",
       "password": "admin123"
+    },
+    {
+      "id": "6d3f2233-781c-40b8-9a3d-c5be908e038b",
+      "name": "Yudith Leon",
+      "email": "yudith@gmail.com",
+      "password": "111111",
+      "correct": 2,
+      "incorrect": 6,
+      "HTML": 2,
+      "JS": 0,
+      "CSS": 0,
+      "FIG": 0,
+      "UX": 0
+    }
+  ],
+  "questions": [
+    {
+      "category": "HTML",
+      "question": [
+        {
+          "type": "select",
+          "imagen": "../assets/child1.png",
+          "question": "What is the capital of France?",
+          "options": [
+            "Paris",
+            "Berlin",
+            "Madrid",
+            "London"
+          ],
+          "answer": "Paris"
+        },
+        {
+          "type": "imagen",
+          "imagen": "../assets/child2.png",
+          "question": "Who was the first person to climb Mount Everest?",
+          "options": [
+            "Albert Einstein",
+            "Leonardo da Vinci",
+            "Paul Gauguin",
+            "Stephen Hawking"
+          ],
+          "answer": "Stephen Hawking"
+        },
+        {
+          "type": "order",
+          "question": "Who was the first person to climb Mount Everest?",
+          "options": [
+            "Albert Einstein",
+            "Leonardo da Vinci",
+            "Paul Gauguin",
+            "Stephen Hawking"
+          ],
+          "answer": "Stephen Hawking"
+        }
+      ]
+    },
+    {
+      "category": "JS",
+      "question": [
+        {
+          "type": "select",
+          "imagen": "../assets/child1.png",
+          "question": "What is the capital of France?",
+          "options": [
+            "Paris",
+            "Berlin",
+            "Madrid",
+            "London"
+          ],
+          "answer": "Paris"
+        },
+        {
+          "type": "imagen",
+          "imagen": "../assets/child2.png",
+          "question": "Who was the first person to climb Mount Everest?",
+          "options": [
+            "Albert Einstein",
+            "Leonardo da Vinci",
+            "Paul Gauguin",
+            "Stephen Hawking"
+          ],
+          "answer": "Stephen Hawking"
+        },
+        {
+          "type": "order",
+          "question": "Who was the first person to climb Mount Everest?",
+          "options": [
+            "Albert Einstein",
+            "Leonardo da Vinci",
+            "Paul Gauguin",
+            "Stephen Hawking"
+          ],
+          "answer": "Stephen Hawking"
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": [
+        {
+          "type": "select",
+          "imagen": "../assets/child1.png",
+          "question": "What is the capital of France?",
+          "options": [
+            "Paris",
+            "Berlin",
+            "Madrid",
+            "London"
+          ],
+          "answer": "Paris"
+        },
+        {
+          "type": "imagen",
+          "imagen": "../assets/child2.png",
+          "question": "Who was the first person to climb Mount Everest?",
+          "options": [
+            "Albert Einstein",
+            "Leonardo da Vinci",
+            "Paul Gauguin",
+            "Stephen Hawking"
+          ],
+          "answer": "Stephen Hawking"
+        },
+        {
+          "type": "order",
+          "question": "Who was the first person to climb Mount Everest?",
+          "options": [
+            "Albert Einstein",
+            "Leonardo da Vinci",
+            "Paul Gauguin",
+            "Stephen Hawking"
+          ],
+          "answer": "Stephen Hawking"
+        }
+      ]
     }
   ]
 }

@@ -9,8 +9,7 @@ export const postUserData = async (url, data) => {
     }).then(
       alert("Usuario creado")
     ).then(
-      // Pendiente redireccionar al index
-      window.location.href = "../../index.html"
+       window.location.href = "../../index.html"
     );
   } catch (error) {
     console.error("Error fetching data")
